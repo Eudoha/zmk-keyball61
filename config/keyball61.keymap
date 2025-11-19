@@ -57,7 +57,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "END_REMOTE";
             #binding-cells = <0>;
-            bindings = <&kp Q>, <&none>, <&kp LS(LC(LA(Q)))>;
+            bindings = <&kp Q>, <&macro_qq>, <&kp LS(LC(LA(Q)))>;
         };
 
         cls_win: cls_win {
@@ -129,6 +129,13 @@
             bindings = <&kp NUMBER_4 &kp N4>;
             label = "MACRO_44";
         };
+
+        macro_qq: macro_qq {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Q &kp Q>;
+            label = "MACRO_QQ";
+        };
     };
 
     keymap {
@@ -138,7 +145,7 @@
             label = "QWERTY";
             bindings = <
 &kp ESC                &kp N1                &kp N2              &kp N3            &cls_win                  &kp N5                                     &kp N6               &kp N7            &kp N8                  &kp N9                    &kp N0                        &kp BSPC
-&kp TAB                &end_remote           &td_close_tab       &kp E             &kp R                     &TD_new_tab                                &kp Y                &kp U             &kp I                   &kp O                     &kp P                         &kp BACKSLASH
+&kp TAB                &end_remote           &td_close_tab       &kp E             &kp R                     &kp T                                      &kp Y                &kp U             &kp I                   &kp O                     &kp P                         &kp BACKSLASH
 &hrow LSHIFT CAPSLOCK  &hrow LEFT_CONTROL A  &hrow LEFT_SHIFT S  &hrow LEFT_GUI D  &hrow LEFT_ALT F          &kp G                                      &kp H                &hrow LEFT_ALT J  &hrow LEFT_GUI K        &hrow LEFT_SHIFT L        &hrow LEFT_CONTROL SEMICOLON  &kp ENTER
 &kp LEFT_SHIFT         &kp Z                 &kp X               &kp C             &kp V                     &kp B           &kp LEFT_GUI  &mo 3        &kp N                &kp M             &mt LEFT_BRACKET COMMA  &mt RIGHT_BRACKET PERIOD  &mt LS(SLASH) SLASH           &kp DELETE
 &kp LEFT_CONTROL       &kp LEFT_SHIFT        &kp LEFT_WIN        &kp LEFT_ALT      &hrow LEFT_CONTROL GRAVE  &bootloader_Lt  &kp LSHIFT    &lt 1 ENTER  &hold_layer 2 SPACE                                                                      &mt LANG_HANJA RIGHT_ALT      &kp LANG_HANJA
