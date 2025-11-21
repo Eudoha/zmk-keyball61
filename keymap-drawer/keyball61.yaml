@@ -441,3 +441,13 @@ combos:
   k: {t: MOUSE, h: toggle}
 - p: [26, 27, 28]
   k: {t: NUM, h: toggle}
+- p: [0, 1]
+  k: '~'
+- p: [37, 38]
+  k: Ctl+Z
+- p: [38, 39]
+  k: Ctl+X
+- p: [39, 40]
+  k: Ctl+C
+- p: [40, 41]
+  k: Ctl+V
