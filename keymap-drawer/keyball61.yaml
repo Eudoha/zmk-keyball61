@@ -58,9 +58,9 @@ layers:
   - {t: '`', h: '$$mdi:apple-keyboard-control$$', s: '~'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:progress-download$$'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:keyboard-return$$', h: FUNC}
+  - {t: '$$mdi:apple-keyboard-option$$', h: FUNC}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
-  - {t: '$$mdi:apple-keyboard-option$$', h: LANG HANJA}
+  - LANG1
   - LANG HANJA
   FUNC:
   - $$mdi:keyboard-esc$$
@@ -404,9 +404,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
+  - SCROLL
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -451,3 +451,7 @@ combos:
   k: Ctl+C
 - p: [40, 41]
   k: Ctl+V
+- p: [13, 14]
+  k: Ctl+Q
+- p: [45, 46, 47]
+  k: {t: MOUSE, h: toggle}
