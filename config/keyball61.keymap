@@ -96,9 +96,9 @@
             key-positions = <49 60>;
         };
 
-        toggle_mouse_layer {
-            bindings = <&tog 4>;
-            key-positions = <31 32 33>;
+        to_default_layer {
+            bindings = <&to 0>;
+            key-positions = <32 33 31>;
         };
 
         toggle_num_layer {
