@@ -642,11 +642,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="859" y="243" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-1">
-<path d="M700,149 l-37,3" class="combo"/>
 <path d="M700,149 l37,3" class="combo"/>
+<path d="M700,149 l-37,3" class="combo"/>
 <rect rx="6" ry="6" x="686" y="136" width="28" height="26" class="combo"/>
-<a href="#MOUSE">
-<text x="700" y="149" class="combo tap layer-activator">MOUSE</text>
+<a href="#QWERTY">
+<text x="700" y="149" class="combo tap layer-activator">QWERTY</text>
 </a><text x="700" y="160" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -1006,11 +1006,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="859" y="243" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-1">
-<path d="M700,149 l-37,3" class="combo"/>
 <path d="M700,149 l37,3" class="combo"/>
+<path d="M700,149 l-37,3" class="combo"/>
 <rect rx="6" ry="6" x="686" y="136" width="28" height="26" class="combo"/>
-<a href="#MOUSE">
-<text x="700" y="149" class="combo tap layer-activator">MOUSE</text>
+<a href="#QWERTY">
+<text x="700" y="149" class="combo tap layer-activator">QWERTY</text>
 </a><text x="700" y="160" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -1395,11 +1395,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="859" y="243" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-1">
-<path d="M700,149 l-37,3" class="combo"/>
 <path d="M700,149 l37,3" class="combo"/>
+<path d="M700,149 l-37,3" class="combo"/>
 <rect rx="6" ry="6" x="686" y="136" width="28" height="26" class="combo"/>
-<a href="#MOUSE">
-<text x="700" y="149" class="combo tap layer-activator">MOUSE</text>
+<a href="#QWERTY">
+<text x="700" y="149" class="combo tap layer-activator">QWERTY</text>
 </a><text x="700" y="160" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -1765,11 +1765,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="859" y="243" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-1">
-<path d="M700,149 l-37,3" class="combo"/>
 <path d="M700,149 l37,3" class="combo"/>
+<path d="M700,149 l-37,3" class="combo"/>
 <rect rx="6" ry="6" x="686" y="136" width="28" height="26" class="combo"/>
-<a href="#MOUSE">
-<text x="700" y="149" class="combo tap layer-activator">MOUSE</text>
+<a href="#QWERTY">
+<text x="700" y="149" class="combo tap layer-activator">QWERTY</text>
 </a><text x="700" y="160" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -2141,11 +2141,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="859" y="243" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-1">
-<path d="M700,149 l-37,3" class="combo"/>
 <path d="M700,149 l37,3" class="combo"/>
+<path d="M700,149 l-37,3" class="combo"/>
 <rect rx="6" ry="6" x="686" y="136" width="28" height="26" class="combo"/>
-<a href="#MOUSE">
-<text x="700" y="149" class="combo tap layer-activator">MOUSE</text>
+<a href="#QWERTY">
+<text x="700" y="149" class="combo tap layer-activator">QWERTY</text>
 </a><text x="700" y="160" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -2499,11 +2499,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="859" y="243" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-1">
-<path d="M700,149 l-37,3" class="combo"/>
 <path d="M700,149 l37,3" class="combo"/>
+<path d="M700,149 l-37,3" class="combo"/>
 <rect rx="6" ry="6" x="686" y="136" width="28" height="26" class="combo"/>
-<a href="#MOUSE">
-<text x="700" y="149" class="combo tap layer-activator">MOUSE</text>
+<a href="#QWERTY">
+<text x="700" y="149" class="combo tap layer-activator">QWERTY</text>
 </a><text x="700" y="160" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
@@ -2860,11 +2860,11 @@ rect.held, rect.combo.held {
 <use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="859" y="243" height="18" width="18.0" class="combo tap glyph mdi:progress-download"/>
 </g>
 <g class="combo combopos-1">
-<path d="M700,149 l-37,3" class="combo"/>
 <path d="M700,149 l37,3" class="combo"/>
+<path d="M700,149 l-37,3" class="combo"/>
 <rect rx="6" ry="6" x="686" y="136" width="28" height="26" class="combo"/>
-<a href="#MOUSE">
-<text x="700" y="149" class="combo tap layer-activator">MOUSE</text>
+<a href="#QWERTY">
+<text x="700" y="149" class="combo tap layer-activator">QWERTY</text>
 </a><text x="700" y="160" class="combo hold">toggle</text>
 </g>
 <g class="combo combopos-2">
