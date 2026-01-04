@@ -14,8 +14,8 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:keyboard-tab$$
-  - '&end_remote'
-  - '&td_close_tab'
+  - Q
+  - W
   - E
   - R
   - T
@@ -437,21 +437,19 @@ layers:
 combos:
 - p: [49, 60]
   k: $$mdi:progress-download$$
-- p: [32, 33, 31]
-  k: {t: QWERTY, h: toggle}
 - p: [26, 27, 28]
   k: {t: NUM, h: toggle}
 - p: [0, 1]
   k: '~'
 - p: [37, 38]
   k: Ctl+Z
-- p: [38, 39]
-  k: Ctl+X
-- p: [39, 40]
-  k: Ctl+C
-- p: [40, 41]
-  k: Ctl+V
 - p: [13, 14]
   k: Ctl+Q
 - p: [45, 46, 47]
   k: {t: MOUSE, h: toggle}
+  l: [QWERTY]
+- p: [32, 33, 31]
+  k: {t: QWERTY, h: toggle}
+  l: [MOUSE]
+- p: [13, 14, 15]
+  k: Meh+Q
