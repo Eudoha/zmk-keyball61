@@ -38,27 +38,6 @@
             flavor = "balanced";
         };
 
-        TD_new_tab: TD_new_tab {
-            compatible = "zmk,behavior-tap-dance";
-            label = "td_new_tab";
-            #binding-cells = <0>;
-            bindings = <&kp T>, <&macro_tt>, <&kp LC(T)>;
-        };
-
-        td_close_tab: td_close_tab {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TD_CLOSE_TAB";
-            #binding-cells = <0>;
-            bindings = <&kp W>, <&macro_ww>, <&kp LC(W)>;
-        };
-
-        end_remote: end_remote {
-            compatible = "zmk,behavior-tap-dance";
-            label = "END_REMOTE";
-            #binding-cells = <0>;
-            bindings = <&kp Q>, <&macro_qq>, <&kp LS(LC(LA(Q)))>;
-        };
-
         cls_win: cls_win {
             compatible = "zmk,behavior-tap-dance";
             label = "CLS_WIN";
@@ -96,11 +75,6 @@
             key-positions = <49 60>;
         };
 
-        to_default_layer {
-            bindings = <&to 0>;
-            key-positions = <32 33 31>;
-        };
-
         toggle_num_layer {
             bindings = <&tog 2>;
             key-positions = <26 27 28>;
@@ -116,59 +90,35 @@
             key-positions = <37 38>;
         };
 
-        ctrl_x {
-            bindings = <&kp LC(X)>;
-            key-positions = <38 39>;
-        };
-
-        ctrl_c {
-            bindings = <&kp LC(C)>;
-            key-positions = <39 40>;
-        };
-
-        ctrl_v {
-            bindings = <&kp LC(V)>;
-            key-positions = <40 41>;
-        };
-
         ctrl_Q {
             bindings = <&kp LC(Q)>;
             key-positions = <13 14>;
         };
 
-        to_mouse_layer {
+        to_default_layer {
             bindings = <&to 4>;
             key-positions = <45 46 47>;
+            layers = <0>;
+        };
+
+        to_mouse_layer {
+            bindings = <&to 0>;
+            key-positions = <32 33 31>;
+            layers = <4>;
+        };
+
+        end_remote {
+            bindings = <&kp LS(LC(LA(Q)))>;
+            key-positions = <13 14 15>;
         };
     };
 
     macros {
-        macro_tt: macro_tt {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp T &kp T>;
-            label = "MACRO_TT";
-        };
-
-        macro_ww: macro_ww {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp W &kp W>;
-            label = "MACRO_WW";
-        };
-
         macro_44: macro_44 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp NUMBER_4 &kp N4>;
             label = "MACRO_44";
-        };
-
-        macro_qq: macro_qq {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp Q &kp Q>;
-            label = "MACRO_QQ";
         };
     };
 
@@ -179,7 +129,7 @@
             label = "QWERTY";
             bindings = <
 &kp ESC                &kp N1                &kp N2              &kp N3            &cls_win                  &kp N5                                         &kp N6               &kp N7            &kp N8                  &kp N9                    &kp N0                        &kp BSPC
-&kp TAB                &end_remote           &td_close_tab       &kp E             &kp R                     &kp T                                          &kp Y                &kp U             &kp I                   &kp O                     &kp P                         &kp BACKSLASH
+&kp TAB                &kp Q                 &kp W               &kp E             &kp R                     &kp T                                          &kp Y                &kp U             &kp I                   &kp O                     &kp P                         &kp BACKSLASH
 &hrow LSHIFT CAPSLOCK  &hrow LEFT_CONTROL A  &hrow LEFT_SHIFT S  &hrow LEFT_GUI D  &hrow LEFT_ALT F          &kp G                                          &kp H                &hrow LEFT_ALT J  &hrow LEFT_GUI K        &hrow LEFT_SHIFT L        &hrow LEFT_CONTROL SEMICOLON  &kp ENTER
 &kp LEFT_SHIFT         &kp Z                 &kp X               &kp C             &kp V                     &kp B           &kp LEFT_GUI  &mo 3            &kp N                &kp M             &mt LEFT_BRACKET COMMA  &mt RIGHT_BRACKET PERIOD  &mt LS(SLASH) SLASH           &kp DELETE
 &kp LEFT_CONTROL       &kp LEFT_SHIFT        &kp LEFT_WIN        &kp LEFT_ALT      &hrow LEFT_CONTROL GRAVE  &bootloader_Lt  &kp LSHIFT    &lt 1 RIGHT_ALT  &hold_layer 2 SPACE                                                                      &kp LANG1                     &kp LANG_HANJA
