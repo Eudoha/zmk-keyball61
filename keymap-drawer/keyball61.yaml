@@ -509,10 +509,8 @@ combos:
   k: Ctl+Q
 - p: [45, 46, 47]
   k: {t: QWERTY, h: toggle}
-  l: [QWERTY]
 - p: [32, 33, 31]
   k: {t: MOUSE, h: toggle}
-  l: [MOUSE]
 - p: [13, 14, 15]
   k: Meh+Q
 - p: [37, 25]
