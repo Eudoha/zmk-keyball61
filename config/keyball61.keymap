@@ -98,13 +98,11 @@
         to_qwerty_layer {
             bindings = <&to 0>;
             key-positions = <45 46 47>;
-            layers = <0>;
         };
 
         to_mouse_layer {
             bindings = <&to 3>;
             key-positions = <32 33 31>;
-            layers = <3>;
         };
 
         end_remote {
