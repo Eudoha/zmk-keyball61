@@ -97,12 +97,7 @@
 
         to_qwerty_layer {
             bindings = <&to 0>;
-            key-positions = <45 46 47>;
-        };
-
-        to_mouse_layer {
-            bindings = <&to 3>;
-            key-positions = <32 33 31>;
+            key-positions = <31 32 33>;
         };
 
         end_remote {
@@ -123,11 +118,6 @@
         auto-brkt {
             bindings = <&auto_bracket>;
             key-positions = <43 44>;
-        };
-
-        auto_brkt2 {
-            bindings = <&auto_bracket>;
-            key-positions = <44 30>;
         };
     };
 
