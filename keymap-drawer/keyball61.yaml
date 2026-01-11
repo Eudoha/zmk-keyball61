@@ -507,10 +507,8 @@ combos:
   k: Ctl+Z
 - p: [13, 14]
   k: Ctl+Q
-- p: [45, 46, 47]
+- p: [31, 32, 33]
   k: {t: QWERTY, h: toggle}
-- p: [32, 33, 31]
-  k: {t: MOUSE, h: toggle}
 - p: [13, 14, 15]
   k: Meh+Q
 - p: [37, 25]
@@ -518,6 +516,4 @@ combos:
 - p: [41, 42]
   k: '&auto_parentheses'
 - p: [43, 44]
-  k: '&auto_bracket'
-- p: [44, 30]
   k: '&auto_bracket'
