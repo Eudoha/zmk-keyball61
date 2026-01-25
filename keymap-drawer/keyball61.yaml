@@ -55,9 +55,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - LEFT WIN
   - $$mdi:apple-keyboard-option$$
-  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:keyboard-space$$', s: '$$mdi:progress-download$$'}
-  - {t: LANG2, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:apple-keyboard-option$$', h: FUNC}
   - {t: '$$mdi:keyboard-space$$', h: NUM}
   - LANG1
