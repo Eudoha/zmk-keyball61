@@ -43,7 +43,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:apple-keyboard-command$$
+  - SNIPE
   - SYS
   - N
   - M
@@ -280,9 +280,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -519,3 +519,15 @@ combos:
   k: '&auto_bracket'
 - p: [45, 46, 47]
   k: {t: MOUSE, h: toggle}
+- p: [32, 31]
+  k: '&mkp MB1'
+- p: [32, 33]
+  k: '&mkp MB2'
+- p: [33, 31]
+  k: SCROLL
+- p: [19, 21]
+  k: $$mdi:mouse-scroll-wheel$$
+- p: [45, 46]
+  k: '&mkp MB4'
+- p: [46, 47]
+  k: '&mkp MB5'
