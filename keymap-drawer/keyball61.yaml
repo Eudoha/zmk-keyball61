@@ -142,7 +142,7 @@ layers:
   - HOME
   - $$mdi:arrow-up-bold$$
   - END
-  - PgUp
+  - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -154,7 +154,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - PgDn
+  - PG DN
   - {t: '[', s: '{'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
