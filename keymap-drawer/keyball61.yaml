@@ -497,7 +497,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Apple:
-  - $$mdi:keyboard-esc$$
+  - {t: QWERTY, h: toggle}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -570,7 +570,7 @@ combos:
 - p: [13, 14]
   k: Ctl+Q
 - p: [31, 32, 33]
-  k: {t: QWERTY, h: toggle}
+  k: {t: Apple, h: toggle}
 - p: [13, 14, 15]
   k: Meh+Q
 - p: [37, 25]
